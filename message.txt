@@ -1,0 +1,588 @@
+Computer: CHRIS
+------------------------------------------------------------------------------
+
+This application has encountered a critical error:
+
+ERROR #132 (0x85100084) Fatal Exception
+Program:	c:\program files (x86)\valanior\Valanior.exe
+Exception:	0xC0000005 (ACCESS_VIOLATION) at 0023:0DB7CBC0
+
+The instruction at "0x0DB7CBC0" referenced memory at "0x0DB7CBC0".
+The memory could not be "written".
+
+
+WoWBuild: 12340
+Realm: Valanior [135.125.74.224:8085]
+Local Zone: Blackrock Depths
+Local Player: Ailipal, 00000000000010C9, (546.855,16.7305,-70.6946)
+Attacking Target: Anvilrage Soldier, F1300022BD000292, (542.664,23.7594,-71.0935)
+Locked Target: Anvilrage Soldier, F1300022BD000292, (542.664,23.7594,-71.0935)
+Last Enemy Target: Anvilrage Soldier, F1300022BD000292, (542.664,23.7594,-71.0935)
+Total lua memory: 29897KB
+Current Addon: (null)
+Current Addon function: UNKNOWN
+Current Addon object: (null)
+Add Ons: AIO_Client AtlasLoot_Loader Details Details_DpsTuning Details_EncounterDetails Details_TinyThreat Details_DeathGraphs Details_Compare2 Details_RaidCheck Details_Streamer Details_TimeLine Details_Vanguard Details_RaidInfo-ChamberOfAspects Details_RaidInfo-EoE Details_RaidInfo-Naxx Details_RaidInfo-ToC Details_RaidInfo-Ulduar Details_RaidInfo-VoA Details_ChartViewer MoveAnything Valanior 
+Settings: 
+SET locale "enUS"
+SET realmList "logon.valanior.com"
+SET hwDetect "0"
+SET gxWindow "1"
+SET gxMaximize "1"
+SET gxResolution "1920x1080"
+SET gxRefresh "144"
+SET gxMultisampleQuality "0.000000"
+SET gxFixLag "0"
+SET videoOptionsVersion "3"
+SET movie "0"
+SET Gamma "1.000000"
+SET readTOS "1"
+SET readEULA "1"
+SET showToolsUI "1"
+SET accounttype "LK"
+SET Sound_OutputDriverName "System Default"
+SET Sound_MusicVolume "0.20000000298023"
+SET Sound_AmbienceVolume "0.30000001192093"
+SET farclip "397"
+SET specular "1"
+SET groundEffectDensity "24"
+SET projectedTextures "1"
+SET realmName "Valanior"
+SET gameTip "129"
+SET mouseSpeed "1"
+SET Sound_EnableAmbience "0"
+SET Sound_EnableErrorSpeech "0"
+SET Sound_EnableMusic "0"
+SET Sound_MasterVolume "0.10000000149012"
+SET Sound_SFXVolume "0.40000000596046"
+SET Sound_EnableEmoteSounds "0"
+SET Sound_EnablePetSounds "0"
+SET uiScale "0.74000000953674"
+SET useUiScale "1"
+SET checkAddonVersion "0"
+
+----------------------------------------
+               GxInfo
+----------------------------------------
+GxApi: D3D9
+Adapter Count: 1
+
+Adapter 0 (primary):
+  Driver: amdxn32.dll
+  Version: 31.0.24033.1003
+  Description: AMD Radeon RX 7900 XTX
+  DeviceName: \\.\DISPLAY1
+
+------------------------------------------------------------------------------
+
+----------------------------------------
+    x86 Registers
+----------------------------------------
+
+EAX=00000000  EBX=0DBCB6F4  ECX=0DB96080  EDX=0002C4C6  ESI=044CFB0C
+EDI=0DB7CE90  EBP=732598D7  ESP=044CFAC0  EIP=0DB7CBC0  FLG=00010202
+CS =0023      DS =002B      ES =002B      SS =002B      FS =0053      GS =002B
+
+
+----------------------------------------
+    Stack Trace (Manual)
+----------------------------------------
+
+Address  Frame    Logical addr  Module
+
+Showing 40/40 threads...
+
+--- Thread ID: 15468 [Current Thread] ---
+0DB7CBC0 732598D7 0000:00000000 <unknown>
+
+--- Thread ID: 26388 ---
+75DD7BA9 0131FF84 0001:00007BA9 C:\WINDOWS\System32\KERNEL32.DLL
+774AC10B 0131FFDC 0001:0006B10B C:\WINDOWS\SYSTEM32\ntdll.dll
+774AC08F 0131FFEC 0001:0006B08F C:\WINDOWS\SYSTEM32\ntdll.dll
+
+--- Thread ID: 11080 ---
+75DD7BA9 015CFF84 0001:00007BA9 C:\WINDOWS\System32\KERNEL32.DLL
+774AC10B 015CFFDC 0001:0006B10B C:\WINDOWS\SYSTEM32\ntdll.dll
+774AC08F 015CFFEC 0001:0006B08F C:\WINDOWS\SYSTEM32\ntdll.dll
+
+--- Thread ID: 20320 ---
+75DD7BA9 0177FF84 0001:00007BA9 C:\WINDOWS\System32\KERNEL32.DLL
+774AC10B 0177FFDC 0001:0006B10B C:\WINDOWS\SYSTEM32\ntdll.dll
+774AC08F 0177FFEC 0001:0006B08F C:\WINDOWS\SYSTEM32\ntdll.dll
+
+--- Thread ID: 14556 ---
+75DD7BA9 031EFF84 0001:00007BA9 C:\WINDOWS\System32\KERNEL32.DLL
+774AC10B 031EFFDC 0001:0006B10B C:\WINDOWS\SYSTEM32\ntdll.dll
+774AC08F 031EFFEC 0001:0006B08F C:\WINDOWS\SYSTEM32\ntdll.dll
+
+--- Thread ID: 23248 ---
+72FE66C9 0348FBD8 0001:000656C9 C:\WINDOWS\SYSTEM32\CoreMessaging.dll
+72FA38F8 0348FC58 0001:000228F8 C:\WINDOWS\SYSTEM32\CoreMessaging.dll
+72FA3207 0348FCA0 0001:00022207 C:\WINDOWS\SYSTEM32\CoreMessaging.dll
+72FD92B6 0348FD14 0001:000582B6 C:\WINDOWS\SYSTEM32\CoreMessaging.dll
+72FE630A 0348FD78 0001:0006530A C:\WINDOWS\SYSTEM32\CoreMessaging.dll
+72FA2204 0348FDBC 0001:00021204 C:\WINDOWS\SYSTEM32\CoreMessaging.dll
+72FA1B21 0348FE04 0001:00020B21 C:\WINDOWS\SYSTEM32\CoreMessaging.dll
+72F99FF3 0348FE44 0001:00018FF3 C:\WINDOWS\SYSTEM32\CoreMessaging.dll
+72FA301D 0348FE7C 0001:0002201D C:\WINDOWS\SYSTEM32\CoreMessaging.dll
+72F99E9D 0348FEBC 0001:00018E9D C:\WINDOWS\SYSTEM32\CoreMessaging.dll
+72FD3150 0348FEE8 0001:00052150 C:\WINDOWS\SYSTEM32\CoreMessaging.dll
+72FC2FF1 0348FF2C 0001:00041FF1 C:\WINDOWS\SYSTEM32\CoreMessaging.dll
+730BB2A3 0348FF6C 0001:0006A2A3 C:\WINDOWS\SYSTEM32\inputhost.dll
+730BB06D 0348FF74 0001:0006A06D C:\WINDOWS\SYSTEM32\inputhost.dll
+75DD7BA9 0348FF84 0001:00007BA9 C:\WINDOWS\System32\KERNEL32.DLL
+774AC10B 0348FFDC 0001:0006B10B C:\WINDOWS\SYSTEM32\ntdll.dll
+774AC08F 0348FFEC 0001:0006B08F C:\WINDOWS\SYSTEM32\ntdll.dll
+
+--- Thread ID: 10796 ---
+770BD73F 018BFEF0 0001:0011C73F C:\WINDOWS\System32\KERNELBASE.dll
+770BD6DF 018BFF00 0001:0011C6DF C:\WINDOWS\System32\KERNELBASE.dll
+00438935 018BFF20 0001:00037935 c:\program files (x86)\valanior\Valanior.exe
+0044DF1A 018BFF34 0001:0004CF1A c:\program files (x86)\valanior\Valanior.exe
+0088C5DF 018BFF6C 0001:0048B5DF c:\program files (x86)\valanior\Valanior.exe
+0088C684 018BFF84 0001:0048B684 c:\program files (x86)\valanior\Valanior.exe
+774AC10B 018BFFDC 0001:0006B10B C:\WINDOWS\SYSTEM32\ntdll.dll
+774AC08F 018BFFEC 0001:0006B08F C:\WINDOWS\SYSTEM32\ntdll.dll
+
+--- Thread ID: 21520 ---
+771A9480 0F75FF1C 0001:00208480 C:\WINDOWS\System32\KERNELBASE.dll
+
+--- Thread ID: 1768 ---
+771A9480 0F90FF1C 0001:00208480 C:\WINDOWS\System32\KERNELBASE.dll
+
+--- Thread ID: 364 ---
+771A9480 0FABFF1C 0001:00208480 C:\WINDOWS\System32\KERNELBASE.dll
+
+--- Thread ID: 19320 ---
+771A9480 0FC6FF1C 0001:00208480 C:\WINDOWS\System32\KERNELBASE.dll
+
+--- Thread ID: 308 ---
+771A9480 0FE1FF1C 0001:00208480 C:\WINDOWS\System32\KERNELBASE.dll
+
+--- Thread ID: 5488 ---
+771A9480 0FFCFF1C 0001:00208480 C:\WINDOWS\System32\KERNELBASE.dll
+
+--- Thread ID: 12212 ---
+771A9480 1021FF1C 0001:00208480 C:\WINDOWS\System32\KERNELBASE.dll
+
+--- Thread ID: 5644 ---
+771A9480 103CFF1C 0001:00208480 C:\WINDOWS\System32\KERNELBASE.dll
+
+--- Thread ID: 10568 ---
+771A9480 1057FF1C 0001:00208480 C:\WINDOWS\System32\KERNELBASE.dll
+
+--- Thread ID: 6392 ---
+771A9480 1072FF1C 0001:00208480 C:\WINDOWS\System32\KERNELBASE.dll
+
+--- Thread ID: 6588 ---
+771A9480 108DFF1C 0001:00208480 C:\WINDOWS\System32\KERNELBASE.dll
+
+--- Thread ID: 2892 ---
+771A9480 10A8FF1C 0001:00208480 C:\WINDOWS\System32\KERNELBASE.dll
+
+--- Thread ID: 4176 ---
+771A9480 10C3FF1C 0001:00208480 C:\WINDOWS\System32\KERNELBASE.dll
+
+--- Thread ID: 4900 ---
+771A9480 10DEFF1C 0001:00208480 C:\WINDOWS\System32\KERNELBASE.dll
+
+--- Thread ID: 5352 ---
+75DD7BA9 11AAFF84 0001:00007BA9 C:\WINDOWS\System32\KERNEL32.DLL
+774AC10B 11AAFFDC 0001:0006B10B C:\WINDOWS\SYSTEM32\ntdll.dll
+774AC08F 11AAFFEC 0001:0006B08F C:\WINDOWS\SYSTEM32\ntdll.dll
+
+--- Thread ID: 2604 ---
+771A9480 11D6FEE8 0001:00208480 C:\WINDOWS\System32\KERNELBASE.dll
+58FEA1D3 11D6FF38 0001:000691D3 C:\WINDOWS\System32\DriverStore\FileRepository\u0403196.inf_amd64_d0c41aa30f8bcfb2\B402774\amdxn32.dll
+590058DF 11D6FF74 0001:000848DF C:\WINDOWS\System32\DriverStore\FileRepository\u0403196.inf_amd64_d0c41aa30f8bcfb2\B402774\amdxn32.dll
+75DD7BA9 11D6FF84 0001:00007BA9 C:\WINDOWS\System32\KERNEL32.DLL
+774AC10B 11D6FFDC 0001:0006B10B C:\WINDOWS\SYSTEM32\ntdll.dll
+774AC08F 11D6FFEC 0001:0006B08F C:\WINDOWS\SYSTEM32\ntdll.dll
+
+--- Thread ID: 19292 ---
+770BD73F 1271FB10 0001:0011C73F C:\WINDOWS\System32\KERNELBASE.dll
+770BD6DF 1271FB20 0001:0011C6DF C:\WINDOWS\System32\KERNELBASE.dll
+0086B28D 1271FB2C 0001:0046A28D c:\program files (x86)\valanior\Valanior.exe
+004BA8BD 1271FF4C 0001:000B98BD c:\program files (x86)\valanior\Valanior.exe
+0076FFCB 1271FF74 0001:0036EFCB c:\program files (x86)\valanior\Valanior.exe
+75DD7BA9 1271FF84 0001:00007BA9 C:\WINDOWS\System32\KERNEL32.DLL
+774AC10B 1271FFDC 0001:0006B10B C:\WINDOWS\SYSTEM32\ntdll.dll
+774AC08F 1271FFEC 0001:0006B08F C:\WINDOWS\SYSTEM32\ntdll.dll
+
+--- Thread ID: 2656 ---
+770E21A2 12EEFF24 0001:001411A2 C:\WINDOWS\System32\KERNELBASE.dll
+007746A0 12EEFF34 0001:003736A0 c:\program files (x86)\valanior\Valanior.exe
+0081C042 12EEFF4C 0001:0041B042 c:\program files (x86)\valanior\Valanior.exe
+0076FFCB 12EEFF74 0001:0036EFCB c:\program files (x86)\valanior\Valanior.exe
+75DD7BA9 12EEFF84 0001:00007BA9 C:\WINDOWS\System32\KERNEL32.DLL
+774AC10B 12EEFFDC 0001:0006B10B C:\WINDOWS\SYSTEM32\ntdll.dll
+774AC08F 12EEFFEC 0001:0006B08F C:\WINDOWS\SYSTEM32\ntdll.dll
+
+--- Thread ID: 22412 ---
+75DD7BA9 1696FF84 0001:00007BA9 C:\WINDOWS\System32\KERNEL32.DLL
+774AC10B 1696FFDC 0001:0006B10B C:\WINDOWS\SYSTEM32\ntdll.dll
+774AC08F 1696FFEC 0001:0006B08F C:\WINDOWS\SYSTEM32\ntdll.dll
+
+--- Thread ID: 19312 ---
+770BD73F 16CFFF44 0001:0011C73F C:\WINDOWS\System32\KERNELBASE.dll
+770BD6DF 16CFFF54 0001:0011C6DF C:\WINDOWS\System32\KERNELBASE.dll
+008D1E8D 16CFFF60 0001:004D0E8D c:\program files (x86)\valanior\Valanior.exe
+008E520C 16CFFF74 0001:004E420C c:\program files (x86)\valanior\Valanior.exe
+75DD7BA9 16CFFF84 0001:00007BA9 C:\WINDOWS\System32\KERNEL32.DLL
+774AC10B 16CFFFDC 0001:0006B10B C:\WINDOWS\SYSTEM32\ntdll.dll
+774AC08F 16CFFFEC 0001:0006B08F C:\WINDOWS\SYSTEM32\ntdll.dll
+
+--- Thread ID: 11280 ---
+770BD73F 16E6FF44 0001:0011C73F C:\WINDOWS\System32\KERNELBASE.dll
+770BD6DF 16E6FF54 0001:0011C6DF C:\WINDOWS\System32\KERNELBASE.dll
+008D1E8D 16E6FF60 0001:004D0E8D c:\program files (x86)\valanior\Valanior.exe
+008E520C 16E6FF74 0001:004E420C c:\program files (x86)\valanior\Valanior.exe
+75DD7BA9 16E6FF84 0001:00007BA9 C:\WINDOWS\System32\KERNEL32.DLL
+774AC10B 16E6FFDC 0001:0006B10B C:\WINDOWS\SYSTEM32\ntdll.dll
+774AC08F 16E6FFEC 0001:0006B08F C:\WINDOWS\SYSTEM32\ntdll.dll
+
+--- Thread ID: 7944 ---
+770E21A2 17FAFF30 0001:001411A2 C:\WINDOWS\System32\KERNELBASE.dll
+007746A0 17FAFF40 0001:003736A0 c:\program files (x86)\valanior\Valanior.exe
+004F12CB 17FAFF74 0001:000F02CB c:\program files (x86)\valanior\Valanior.exe
+75DD7BA9 17FAFF84 0001:00007BA9 C:\WINDOWS\System32\KERNEL32.DLL
+774AC10B 17FAFFDC 0001:0006B10B C:\WINDOWS\SYSTEM32\ntdll.dll
+774AC08F 17FAFFEC 0001:0006B08F C:\WINDOWS\SYSTEM32\ntdll.dll
+
+--- Thread ID: 25504 ---
+770E21A2 1811FF18 0001:001411A2 C:\WINDOWS\System32\KERNELBASE.dll
+007746A0 1811FF28 0001:003736A0 c:\program files (x86)\valanior\Valanior.exe
+004691A5 1811FF40 0001:000681A5 c:\program files (x86)\valanior\Valanior.exe
+00469311 1811FF4C 0001:00068311 c:\program files (x86)\valanior\Valanior.exe
+0076FFCB 1811FF74 0001:0036EFCB c:\program files (x86)\valanior\Valanior.exe
+75DD7BA9 1811FF84 0001:00007BA9 C:\WINDOWS\System32\KERNEL32.DLL
+774AC10B 1811FFDC 0001:0006B10B C:\WINDOWS\SYSTEM32\ntdll.dll
+774AC08F 1811FFEC 0001:0006B08F C:\WINDOWS\SYSTEM32\ntdll.dll
+
+--- Thread ID: 24260 ---
+770E4028 1828FCE8 0001:00143028 C:\WINDOWS\System32\KERNELBASE.dll
+004699CB 1828FF40 0001:000689CB c:\program files (x86)\valanior\Valanior.exe
+0046906E 1828FF4C 0001:0006806E c:\program files (x86)\valanior\Valanior.exe
+0076FFCB 1828FF74 0001:0036EFCB c:\program files (x86)\valanior\Valanior.exe
+75DD7BA9 1828FF84 0001:00007BA9 C:\WINDOWS\System32\KERNEL32.DLL
+774AC10B 1828FFDC 0001:0006B10B C:\WINDOWS\SYSTEM32\ntdll.dll
+774AC08F 1828FFEC 0001:0006B08F C:\WINDOWS\SYSTEM32\ntdll.dll
+
+--- Thread ID: 23748 ---
+76CB24EF 18D2FEF4 0001:000314EF C:\WINDOWS\System32\USER32.dll
+0044CFA6 18D2FF20 0001:0004BFA6 c:\program files (x86)\valanior\Valanior.exe
+0044DF1A 18D2FF34 0001:0004CF1A c:\program files (x86)\valanior\Valanior.exe
+0088C5DF 18D2FF6C 0001:0048B5DF c:\program files (x86)\valanior\Valanior.exe
+0088C684 18D2FF84 0001:0048B684 c:\program files (x86)\valanior\Valanior.exe
+774AC10B 18D2FFDC 0001:0006B10B C:\WINDOWS\SYSTEM32\ntdll.dll
+774AC08F 18D2FFEC 0001:0006B08F C:\WINDOWS\SYSTEM32\ntdll.dll
+
+--- Thread ID: 21564 ---
+770E21A2 192DFF34 0001:001411A2 C:\WINDOWS\System32\KERNELBASE.dll
+008E4FA5 192DFF50 0001:004E3FA5 c:\program files (x86)\valanior\Valanior.exe
+008D2029 192DFF60 0001:004D1029 c:\program files (x86)\valanior\Valanior.exe
+008E51D0 192DFF74 0001:004E41D0 c:\program files (x86)\valanior\Valanior.exe
+75DD7BA9 192DFF84 0001:00007BA9 C:\WINDOWS\System32\KERNEL32.DLL
+774AC10B 192DFFDC 0001:0006B10B C:\WINDOWS\SYSTEM32\ntdll.dll
+774AC08F 192DFFEC 0001:0006B08F C:\WINDOWS\SYSTEM32\ntdll.dll
+
+--- Thread ID: 19608 ---
+770E21A2 1BACFF2C 0001:001411A2 C:\WINDOWS\System32\KERNELBASE.dll
+007746A0 1BACFF3C 0001:003736A0 c:\program files (x86)\valanior\Valanior.exe
+008CF786 1BACFF4C 0001:004CE786 c:\program files (x86)\valanior\Valanior.exe
+0076FFCB 1BACFF74 0001:0036EFCB c:\program files (x86)\valanior\Valanior.exe
+75DD7BA9 1BACFF84 0001:00007BA9 C:\WINDOWS\System32\KERNEL32.DLL
+774AC10B 1BACFFDC 0001:0006B10B C:\WINDOWS\SYSTEM32\ntdll.dll
+774AC08F 1BACFFEC 0001:0006B08F C:\WINDOWS\SYSTEM32\ntdll.dll
+
+--- Thread ID: 9508 ---
+76CB24EF 1BC3FEF4 0001:000314EF C:\WINDOWS\System32\USER32.dll
+0044CFA6 1BC3FF20 0001:0004BFA6 c:\program files (x86)\valanior\Valanior.exe
+0044DF1A 1BC3FF34 0001:0004CF1A c:\program files (x86)\valanior\Valanior.exe
+0088C5DF 1BC3FF6C 0001:0048B5DF c:\program files (x86)\valanior\Valanior.exe
+0088C684 1BC3FF84 0001:0048B684 c:\program files (x86)\valanior\Valanior.exe
+774AC10B 1BC3FFDC 0001:0006B10B C:\WINDOWS\SYSTEM32\ntdll.dll
+774AC08F 1BC3FFEC 0001:0006B08F C:\WINDOWS\SYSTEM32\ntdll.dll
+
+--- Thread ID: 23108 ---
+75DD7BA9 1BDAFF84 0001:00007BA9 C:\WINDOWS\System32\KERNEL32.DLL
+774AC10B 1BDAFFDC 0001:0006B10B C:\WINDOWS\SYSTEM32\ntdll.dll
+774AC08F 1BDAFFEC 0001:0006B08F C:\WINDOWS\SYSTEM32\ntdll.dll
+
+--- Thread ID: 25184 ---
+76CB24EF 1BF1FEF4 0001:000314EF C:\WINDOWS\System32\USER32.dll
+0044CFA6 1BF1FF20 0001:0004BFA6 c:\program files (x86)\valanior\Valanior.exe
+0044DF1A 1BF1FF34 0001:0004CF1A c:\program files (x86)\valanior\Valanior.exe
+0088C5DF 1BF1FF6C 0001:0048B5DF c:\program files (x86)\valanior\Valanior.exe
+0088C684 1BF1FF84 0001:0048B684 c:\program files (x86)\valanior\Valanior.exe
+774AC10B 1BF1FFDC 0001:0006B10B C:\WINDOWS\SYSTEM32\ntdll.dll
+774AC08F 1BF1FFEC 0001:0006B08F C:\WINDOWS\SYSTEM32\ntdll.dll
+
+--- Thread ID: 10676 ---
+770E4028 295AFF4C 0001:00143028 C:\WINDOWS\System32\KERNELBASE.dll
+5E5536D1 295AFF74 0001:000026D1 C:\WINDOWS\System32\DriverStore\FileRepository\u0403196.inf_amd64_d0c41aa30f8bcfb2\B402774\amdihk32.dll
+75DD7BA9 295AFF84 0001:00007BA9 C:\WINDOWS\System32\KERNEL32.DLL
+774AC10B 295AFFDC 0001:0006B10B C:\WINDOWS\SYSTEM32\ntdll.dll
+774AC08F 295AFFEC 0001:0006B08F C:\WINDOWS\SYSTEM32\ntdll.dll
+
+--- Thread ID: 23760 ---
+75DD7BA9 2BBEFF84 0001:00007BA9 C:\WINDOWS\System32\KERNEL32.DLL
+774AC10B 2BBEFFDC 0001:0006B10B C:\WINDOWS\SYSTEM32\ntdll.dll
+774AC08F 2BBEFFEC 0001:0006B08F C:\WINDOWS\SYSTEM32\ntdll.dll
+
+--- Thread ID: 6404 ---
+75DD7BA9 2BD5FF84 0001:00007BA9 C:\WINDOWS\System32\KERNEL32.DLL
+774AC10B 2BD5FFDC 0001:0006B10B C:\WINDOWS\SYSTEM32\ntdll.dll
+774AC08F 2BD5FFEC 0001:0006B08F C:\WINDOWS\SYSTEM32\ntdll.dll
+
+----------------------------------------
+    Stack Trace (Using DBGHELP.DLL)
+----------------------------------------
+
+Showing 40/40 threads...
+
+--- Thread ID: 15468 [Current Thread] ---
+0DB7CBC0 <unknown module> <unknown symbol>+0 (0x044CFB0C,0x732598D7,0x0DB7CBC0,0x044CFB0C)
+
+--- Thread ID: 26388 ---
+75DD7BA9 KERNEL32.DLL BaseThreadInitThunk+25 (0x0132B160,0x5CABB6A6,0x00000000,0x00000000)
+774AC10B ntdll.dll    RtlInitializeExceptionChain+107 (0xFFFFFFFF,0x774D9E6E,0x00000000,0x00000000)
+774AC08F ntdll.dll    RtlClearBits+191 (0x7747EF60,0x0132B160,0x00000000,0x50748505)
+
+--- Thread ID: 11080 ---
+75DD7BA9 KERNEL32.DLL BaseThreadInitThunk+25 (0x0132B160,0x5CC6B6A6,0x00000000,0x00000000)
+774AC10B ntdll.dll    RtlInitializeExceptionChain+107 (0xFFFFFFFF,0x774D9E6E,0x00000000,0x00000000)
+774AC08F ntdll.dll    RtlClearBits+191 (0x7747EF60,0x0132B160,0x00000000,0x00000000)
+
+--- Thread ID: 20320 ---
+75DD7BA9 KERNEL32.DLL BaseThreadInitThunk+25 (0x0132B160,0x5CEDB6A6,0x00000000,0x00000000)
+774AC10B ntdll.dll    RtlInitializeExceptionChain+107 (0xFFFFFFFF,0x774D9E6E,0x00000000,0x00000000)
+774AC08F ntdll.dll    RtlClearBits+191 (0x7747EF60,0x0132B160,0x00000000,0x00000000)
+
+--- Thread ID: 14556 ---
+75DD7BA9 KERNEL32.DLL BaseThreadInitThunk+25 (0x01320840,0x5E84B6A6,0x00000000,0x00000000)
+774AC10B ntdll.dll    RtlInitializeExceptionChain+107 (0xFFFFFFFF,0x774D9E6E,0x00000000,0x00000000)
+774AC08F ntdll.dll    RtlClearBits+191 (0x7747EF60,0x01320840,0x00000000,0x00000000)
+
+--- Thread ID: 23248 ---
+72FE66C9 CoreMessaging.dll ServiceMain+322249 (0x01333B08,0x00000000,0xFFFFFFFF,0x00000000)
+72FA38F8 CoreMessaging.dll ServiceMain+48376 (0x00000000,0x00000000,0xFFFFFFFF,0x00000000)
+72FA3207 CoreMessaging.dll ServiceMain+46599 (0x00000000,0x00000000,0xFFFFFFFF,0x00000000)
+72FD92B6 CoreMessaging.dll ServiceMain+267958 (0x00000000,0x00000000,0xFFFFFFFF,0x00000000)
+72FE630A CoreMessaging.dll ServiceMain+321290 (0x7DE26101,0x00000000,0x01332C10,0x0132B800)
+72FA2204 CoreMessaging.dll ServiceMain+42500 (0x00000000,0x7DE262B9,0x00000001,0x01332C10)
+72FA1B21 CoreMessaging.dll ServiceMain+40737 (0x00000000,0x7DE262F9,0x01336E50,0x0132B8F0)
+72F99FF3 CoreMessaging.dll ServiceMain+9203 (0x00000001,0x7DE262C1,0x72FA2FA0,0x01336E50)
+72FA301D CoreMessaging.dll ServiceMain+46109 (0x00000001,0x7DE26201,0x72F84C74,0x0132B8F0)
+72F99E9D CoreMessaging.dll ServiceMain+8861 (0x00000001,0x7DE26255,0x72F84C74,0x72FD3120)
+72FD3150 CoreMessaging.dll ServiceMain+243024 (0x01332558,0x00000000,0x01332558,0x72FC196B)
+72FC2FF1 CoreMessaging.dll ServiceMain+177137 (0x01332DE8,0xDB5ABFA7,0x730BB060,0x730BB060)
+730BB2A3 inputhost.dll CreateInputSystemClientConnection+152243 (0x0348FF84,0x75DD7BA9,0x013440E0,0x75DD7B90)
+730BB06D inputhost.dll CreateInputSystemClientConnection+151677 (0x013440E0,0x75DD7B90,0x0348FFDC,0x774AC10B)
+75DD7BA9 KERNEL32.DLL BaseThreadInitThunk+25 (0x013440E0,0x5ED2B6A6,0x00000000,0x00000000)
+774AC10B ntdll.dll    RtlInitializeExceptionChain+107 (0xFFFFFFFF,0x774D9E6E,0x00000000,0x00000000)
+774AC08F ntdll.dll    RtlClearBits+191 (0x730BB060,0x013440E0,0x00000000,0x00000001)
+
+--- Thread ID: 10796 ---
+770BD73F KERNELBASE.dll SleepEx+79 (0x00000064,0x00000000,0x018BFF20,0x00438935)
+770BD6DF KERNELBASE.dll Sleep+15 (0x00000064,0x0088C605,0x045618B0,0x034C7600)
+00438935 Valanior.exe <unknown symbol>+0 (0x00000000,0x0088C605,0x045618B0,0x018BFF6C)
+0044DF1A Valanior.exe <unknown symbol>+0 (0x034C7600,0x42196E41,0x0088C605,0x045618B0)
+0088C5DF Valanior.exe <unknown symbol>+0 (0x0088C605,0x75DD7BA9,0x045618B0,0x75DD7B90)
+0088C684 Valanior.exe <unknown symbol>+0 (0x045618B0,0x5C11B6A6,0x00000000,0x00000000)
+774AC10B ntdll.dll    RtlInitializeExceptionChain+107 (0xFFFFFFFF,0x774D9E6E,0x00000000,0x00000000)
+774AC08F ntdll.dll    RtlClearBits+191 (0x0088C605,0x045618B0,0x00000000,0x00000000)
+
+--- Thread ID: 21520 ---
+771A9480 KERNELBASE.dll SleepConditionVariableCS+32 (0x053875AC,0x053875B4,0xFFFFFFFF,0x04BD6438)
+58FE6B07 amdxn32.dll  OpenAdapter+62903 (0x0D892A00,0x6459D003,0x59A4606B,0x59A4606B)
+59A460C3 amdxn32.dll  boost::serialization::singleton<std::set<boost::serialization::void_cast_detail::void_caster const *,boost::serialization::void_cast_detail::void_caster_compare,std::allocator<boost::serialization::void_cast_detail::void_caster const *> > >::is_destroyed+160211 (0x04BD6438,0x75DD7B90,0x0F75FFDC,0x774AC10B)
+75DD7BA9 KERNEL32.DLL BaseThreadInitThunk+25 (0x04BD6438,0x52EFB6A6,0x00000000,0x00000000)
+774AC10B ntdll.dll    RtlInitializeExceptionChain+107 (0xFFFFFFFF,0x774D9E6E,0x00000000,0x00000000)
+774AC08F ntdll.dll    RtlClearBits+191 (0x59A4606B,0x04BD6438,0x00000000,0x00000000)
+
+--- Thread ID: 1768 ---
+771A9480 KERNELBASE.dll SleepConditionVariableCS+32 (0x053875AC,0x053875B4,0xFFFFFFFF,0x04BD6478)
+58FE6B07 amdxn32.dll  OpenAdapter+62903 (0x0D892A20,0x64BCD003,0x59A4606B,0x59A4606B)
+59A460C3 amdxn32.dll  boost::serialization::singleton<std::set<boost::serialization::void_cast_detail::void_caster const *,boost::serialization::void_cast_detail::void_caster_compare,std::allocator<boost::serialization::void_cast_detail::void_caster const *> > >::is_destroyed+160211 (0x04BD6478,0x75DD7B90,0x0F90FFDC,0x774AC10B)
+75DD7BA9 KERNEL32.DLL BaseThreadInitThunk+25 (0x04BD6478,0x520AB6A6,0x00000000,0x00000000)
+774AC10B ntdll.dll    RtlInitializeExceptionChain+107 (0xFFFFFFFF,0x774D9E6E,0x00000000,0x00000000)
+774AC08F ntdll.dll    RtlClearBits+191 (0x59A4606B,0x04BD6478,0x00000000,0x00000000)
+
+--- Thread ID: 364 ---
+771A9480 KERNELBASE.dll SleepConditionVariableCS+32 (0x053875AC,0x053875B4,0xFFFFFFFF,0x0D893390)
+58FE6B07 amdxn32.dll  OpenAdapter+62903 (0x0D892A40,0x6487D003,0x59A4606B,0x59A4606B)
+59A460C3 amdxn32.dll  boost::serialization::singleton<std::set<boost::serialization::void_cast_detail::void_caster const *,boost::serialization::void_cast_detail::void_caster_compare,std::allocator<boost::serialization::void_cast_detail::void_caster const *> > >::is_destroyed+160211 (0x0D893390,0x75DD7B90,0x0FABFFDC,0x774AC10B)
+75DD7BA9 KERNEL32.DLL BaseThreadInitThunk+25 (0x0D893390,0x5231B6A6,0x00000000,0x00000000)
+774AC10B ntdll.dll    RtlInitializeExceptionChain+107 (0xFFFFFFFF,0x774D9E6E,0x00000000,0x00000000)
+774AC08F ntdll.dll    RtlClearBits+191 (0x59A4606B,0x0D893390,0x00000000,0x00000000)
+
+--- Thread ID: 19320 ---
+771A9480 KERNELBASE.dll SleepConditionVariableCS+32 (0x053875AC,0x053875B4,0xFFFFFFFF,0x0D8931B0)
+58FE6B07 amdxn32.dll  OpenAdapter+62903 (0x0D892A60,0x64EAD003,0x59A4606B,0x59A4606B)
+59A460C3 amdxn32.dll  boost::serialization::singleton<std::set<boost::serialization::void_cast_detail::void_caster const *,boost::serialization::void_cast_detail::void_caster_compare,std::allocator<boost::serialization::void_cast_detail::void_caster const *> > >::is_destroyed+160211 (0x0D8931B0,0x75DD7B90,0x0FC6FFDC,0x774AC10B)
+75DD7BA9 KERNEL32.DLL BaseThreadInitThunk+25 (0x0D8931B0,0x525CB6A6,0x00000000,0x00000000)
+774AC10B ntdll.dll    RtlInitializeExceptionChain+107 (0xFFFFFFFF,0x774D9E6E,0x00000000,0x00000000)
+774AC08F ntdll.dll    RtlClearBits+191 (0x59A4606B,0x0D8931B0,0x00000000,0x00000000)
+
+--- Thread ID: 308 ---
+771A9480 KERNELBASE.dll SleepConditionVariableCS+32 (0x053875AC,0x053875B4,0xFFFFFFFF,0x0D893350)
+58FE6B07 amdxn32.dll  OpenAdapter+62903 (0x0D892A80,0x64CDD003,0x59A4606B,0x59A4606B)
+59A460C3 amdxn32.dll  boost::serialization::singleton<std::set<boost::serialization::void_cast_detail::void_caster const *,boost::serialization::void_cast_detail::void_caster_compare,std::allocator<boost::serialization::void_cast_detail::void_caster const *> > >::is_destroyed+160211 (0x0D893350,0x75DD7B90,0x0FE1FFDC,0x774AC10B)
+75DD7BA9 KERNEL32.DLL BaseThreadInitThunk+25 (0x0D893350,0x527BB6A6,0x00000000,0x00000000)
+774AC10B ntdll.dll    RtlInitializeExceptionChain+107 (0xFFFFFFFF,0x774D9E6E,0x00000000,0x00000000)
+774AC08F ntdll.dll    RtlClearBits+191 (0x59A4606B,0x0D893350,0x00000000,0x00000000)
+
+--- Thread ID: 5488 ---
+771A9480 KERNELBASE.dll SleepConditionVariableCS+32 (0x053875AC,0x053875B4,0xFFFFFFFF,0x0D893150)
+58FE6B07 amdxn32.dll  OpenAdapter+62903 (0x0D892AA0,0x64D0D003,0x59A4606B,0x59A4606B)
+59A460C3 amdxn32.dll  boost::serialization::singleton<std::set<boost::serialization::void_cast_detail::void_caster const *,boost::serialization::void_cast_detail::void_caster_compare,std::allocator<boost::serialization::void_cast_detail::void_caster const *> > >::is_destroyed+160211 (0x0D893150,0x75DD7B90,0x0FFCFFDC,0x774AC10B)
+75DD7BA9 KERNEL32.DLL BaseThreadInitThunk+25 (0x0D893150,0x5266B6A6,0x00000000,0x00000000)
+774AC10B ntdll.dll    RtlInitializeExceptionChain+107 (0xFFFFFFFF,0x774D9E6E,0x00000000,0x00000000)
+774AC08F ntdll.dll    RtlClearBits+191 (0x59A4606B,0x0D893150,0x00000000,0x00000000)
+
+--- Thread ID: 12212 ---
+771A9480 KERNELBASE.dll SleepConditionVariableCS+32 (0x053875AC,0x053875B4,0xFFFFFFFF,0x0D893230)
+58FE6B07 amdxn32.dll  OpenAdapter+62903 (0x0D892AC0,0x7B0DD003,0x59A4606B,0x59A4606B)
+59A460C3 amdxn32.dll  boost::serialization::singleton<std::set<boost::serialization::void_cast_detail::void_caster const *,boost::serialization::void_cast_detail::void_caster_compare,std::allocator<boost::serialization::void_cast_detail::void_caster const *> > >::is_destroyed+160211 (0x0D893230,0x75DD7B90,0x1021FFDC,0x774AC10B)
+75DD7BA9 KERNEL32.DLL BaseThreadInitThunk+25 (0x0D893230,0x4DBBB6A6,0x00000000,0x00000000)
+774AC10B ntdll.dll    RtlInitializeExceptionChain+107 (0xFFFFFFFF,0x774D9E6E,0x00000000,0x00000000)
+774AC08F ntdll.dll    RtlClearBits+191 (0x59A4606B,0x0D893230,0x00000000,0x00000000)
+
+--- Thread ID: 5644 ---
+771A9480 KERNELBASE.dll SleepConditionVariableCS+32 (0x053875AC,0x053875B4,0xFFFFFFFF,0x0D892C50)
+58FE6B07 amdxn32.dll  OpenAdapter+62903 (0x0D892AE0,0x7B10D003,0x59A4606B,0x59A4606B)
+59A460C3 amdxn32.dll  boost::serialization::singleton<std::set<boost::serialization::void_cast_detail::void_caster const *,boost::serialization::void_cast_detail::void_caster_compare,std::allocator<boost::serialization::void_cast_detail::void_caster const *> > >::is_destroyed+160211 (0x0D892C50,0x75DD7B90,0x103CFFDC,0x774AC10B)
+75DD7BA9 KERNEL32.DLL BaseThreadInitThunk+25 (0x0D892C50,0x4DA6B6A6,0x00000000,0x00000000)
+774AC10B ntdll.dll    RtlInitializeExceptionChain+107 (0xFFFFFFFF,0x774D9E6E,0x00000000,0x00000000)
+774AC08F ntdll.dll    RtlClearBits+191 (0x59A4606B,0x0D892C50,0x00000000,0x00000000)
+
+--- Thread ID: 10568 ---
+771A9480 KERNELBASE.dll SleepConditionVariableCS+32 (0x053875AC,0x053875B4,0xFFFFFFFF,0x0D892EB0)
+58FE6B07 amdxn32.dll  OpenAdapter+62903 (0x0D892B00,0x7B7BD003,0x59A4606B,0x59A4606B)
+59A460C3 amdxn32.dll  boost::serialization::singleton<std::set<boost::serialization::void_cast_detail::void_caster const *,boost::serialization::void_cast_detail::void_caster_compare,std::allocator<boost::serialization::void_cast_detail::void_caster const *> > >::is_destroyed+160211 (0x0D892EB0,0x75DD7B90,0x1057FFDC,0x774AC10B)
+75DD7BA9 KERNEL32.DLL BaseThreadInitThunk+25 (0x0D892EB0,0x4DCDB6A6,0x00000000,0x00000000)
+774AC10B ntdll.dll    RtlInitializeExceptionChain+107 (0xFFFFFFFF,0x774D9E6E,0x00000000,0x00000000)
+774AC08F ntdll.dll    RtlClearBits+191 (0x59A4606B,0x0D892EB0,0x00000000,0x00000000)
+
+--- Thread ID: 6392 ---
+771A9480 KERNELBASE.dll SleepConditionVariableCS+32 (0x053875AC,0x053875B4,0xFFFFFFFF,0x0D892FD0)
+58FE6B07 amdxn32.dll  OpenAdapter+62903 (0x0D892B20,0x7B5ED003,0x59A4606B,0x59A4606B)
+59A460C3 amdxn32.dll  boost::serialization::singleton<std::set<boost::serialization::void_cast_detail::void_caster const *,boost::serialization::void_cast_detail::void_caster_compare,std::allocator<boost::serialization::void_cast_detail::void_caster const *> > >::is_destroyed+160211 (0x0D892FD0,0x75DD7B90,0x1072FFDC,0x774AC10B)
+75DD7BA9 KERNEL32.DLL BaseThreadInitThunk+25 (0x0D892FD0,0x4DE8B6A6,0x00000000,0x00000000)
+774AC10B ntdll.dll    RtlInitializeExceptionChain+107 (0xFFFFFFFF,0x774D9E6E,0x00000000,0x00000000)
+774AC08F ntdll.dll    RtlClearBits+191 (0x59A4606B,0x0D892FD0,0x00000000,0x00000000)
+
+--- Thread ID: 6588 ---
+771A9480 KERNELBASE.dll SleepConditionVariableCS+32 (0x053875AC,0x053875B4,0xFFFFFFFF,0x0D892F90)
+58FE6B07 amdxn32.dll  OpenAdapter+62903 (0x0D892B40,0x7BA1D003,0x59A4606B,0x59A4606B)
+59A460C3 amdxn32.dll  boost::serialization::singleton<std::set<boost::serialization::void_cast_detail::void_caster const *,boost::serialization::void_cast_detail::void_caster_compare,std::allocator<boost::serialization::void_cast_detail::void_caster const *> > >::is_destroyed+160211 (0x0D892F90,0x75DD7B90,0x108DFFDC,0x774AC10B)
+75DD7BA9 KERNEL32.DLL BaseThreadInitThunk+25 (0x0D892F90,0x4D17B6A6,0x00000000,0x00000000)
+774AC10B ntdll.dll    RtlInitializeExceptionChain+107 (0xFFFFFFFF,0x774D9E6E,0x00000000,0x00000000)
+774AC08F ntdll.dll    RtlClearBits+191 (0x59A4606B,0x0D892F90,0x00000000,0x00000000)
+
+--- Thread ID: 2892 ---
+771A9480 KERNELBASE.dll SleepConditionVariableCS+32 (0x053875AC,0x053875B4,0xFFFFFFFF,0x0D892E70)
+58FE6B07 amdxn32.dll  OpenAdapter+62903 (0x0D892B60,0x7B84D003,0x59A4606B,0x59A4606B)
+59A460C3 amdxn32.dll  boost::serialization::singleton<std::set<boost::serialization::void_cast_detail::void_caster const *,boost::serialization::void_cast_detail::void_caster_compare,std::allocator<boost::serialization::void_cast_detail::void_caster const *> > >::is_destroyed+160211 (0x0D892E70,0x75DD7B90,0x10A8FFDC,0x774AC10B)
+75DD7BA9 KERNEL32.DLL BaseThreadInitThunk+25 (0x0D892E70,0x4D32B6A6,0x00000000,0x00000000)
+774AC10B ntdll.dll    RtlInitializeExceptionChain+107 (0xFFFFFFFF,0x774D9E6E,0x00000000,0x00000000)
+774AC08F ntdll.dll    RtlClearBits+191 (0x59A4606B,0x0D892E70,0x00000000,0x00000000)
+
+--- Thread ID: 4176 ---
+771A9480 KERNELBASE.dll SleepConditionVariableCS+32 (0x053875AC,0x053875B4,0xFFFFFFFF,0x0D89FE88)
+58FE6B07 amdxn32.dll  OpenAdapter+62903 (0x0D892B80,0x7BEFD003,0x59A4606B,0x59A4606B)
+59A460C3 amdxn32.dll  boost::serialization::singleton<std::set<boost::serialization::void_cast_detail::void_caster const *,boost::serialization::void_cast_detail::void_caster_compare,std::allocator<boost::serialization::void_cast_detail::void_caster const *> > >::is_destroyed+160211 (0x0D89FE88,0x75DD7B90,0x10C3FFDC,0x774AC10B)
+75DD7BA9 KERNEL32.DLL BaseThreadInitThunk+25 (0x0D89FE88,0x4D59B6A6,0x00000000,0x00000000)
+774AC10B ntdll.dll    RtlInitializeExceptionChain+107 (0xFFFFFFFF,0x774D9E6E,0x00000000,0x00000000)
+774AC08F ntdll.dll    RtlClearBits+191 (0x59A4606B,0x0D89FE88,0x00000000,0x00000000)
+
+--- Thread ID: 4900 ---
+771A9480 KERNELBASE.dll SleepConditionVariableCS+32 (0x053875AC,0x053875B4,0xFFFFFFFF,0x0D89FEE8)
+58FE6B07 amdxn32.dll  OpenAdapter+62903 (0x0D892BA0,0x7BF2D003,0x59A4606B,0x59A4606B)
+59A460C3 amdxn32.dll  boost::serialization::singleton<std::set<boost::serialization::void_cast_detail::void_caster const *,boost::serialization::void_cast_detail::void_caster_compare,std::allocator<boost::serialization::void_cast_detail::void_caster const *> > >::is_destroyed+160211 (0x0D89FEE8,0x75DD7B90,0x10DEFFDC,0x774AC10B)
+75DD7BA9 KERNEL32.DLL BaseThreadInitThunk+25 (0x0D89FEE8,0x4D44B6A6,0x00000000,0x00000000)
+774AC10B ntdll.dll    RtlInitializeExceptionChain+107 (0xFFFFFFFF,0x774D9E6E,0x00000000,0x00000000)
+774AC08F ntdll.dll    RtlClearBits+191 (0x59A4606B,0x0D89FEE8,0x00000000,0x00000000)
+
+--- Thread ID: 5352 ---
+75DD7BA9 KERNEL32.DLL BaseThreadInitThunk+25 (0x0DB7CA78,0x4C30B6A6,0x00000000,0x00000000)
+774AC10B ntdll.dll    RtlInitializeExceptionChain+107 (0xFFFFFFFF,0x774D9E6E,0x00000000,0x00000000)
+774AC08F ntdll.dll    RtlClearBits+191 (0x7747EF60,0x0DB7CA78,0x00000000,0x00000000)
+
+--- Thread ID: 2604 ---
+771A9480 KERNELBASE.dll SleepConditionVariableCS+32 (0x0DB96084,0x0DB9608C,0xFFFFFFFF,0x0D89FB88)
+58FEA1D3 amdxn32.dll  OpenAdapter+76931 (0x59A460C3,0x0DB7DAB8,0x7AFAD003,0x59A4606B)
+590058DF amdxn32.dll  boost::serialization::singleton<boost::serialization::extended_type_info_typeid<_E_SC_SI_OPT_NPI_DISABLE> >::singleton<boost::serialization::extended_type_info_typeid<_E_SC_SI_OPT_NPI_DISABLE> >+97423 (0x0D89FB88,0x75DD7B90,0x11D6FFDC,0x774AC10B)
+75DD7BA9 KERNEL32.DLL BaseThreadInitThunk+25 (0x0D89FB88,0x4C4CB6A6,0x00000000,0x00000000)
+774AC10B ntdll.dll    RtlInitializeExceptionChain+107 (0xFFFFFFFF,0x774D9E6E,0x00000000,0x00000000)
+774AC08F ntdll.dll    RtlClearBits+191 (0x59A4606B,0x0D89FB88,0x00000000,0xCD748598)
+
+--- Thread ID: 19292 ---
+770BD73F KERNELBASE.dll SleepEx+79 (0x00000001,0x00000000,0x1271FB2C,0x0086B28D)
+770BD6DF KERNELBASE.dll Sleep+15 (0x00000001,0x1271FF4C,0x004BA8BD,0x00000001)
+0086B28D Valanior.exe <unknown symbol>+0 (0x00000001,0x045C8038,0x00004B5C,0x00002DDC)
+004BA8BD Valanior.exe <unknown symbol>+0 (0x046C7F60,0x0076FF30,0x0076FF30,0x045C8038)
+0076FFCB Valanior.exe <unknown symbol>+0 (0x00CAC7E0,0x75DD7B90,0x1271FFDC,0x774AC10B)
+75DD7BA9 KERNEL32.DLL BaseThreadInitThunk+25 (0x045C8038,0x4FEBB6A6,0x00000000,0x00000000)
+774AC10B ntdll.dll    RtlInitializeExceptionChain+107 (0xFFFFFFFF,0x774D9E6E,0x00000000,0x00000000)
+774AC08F ntdll.dll    RtlClearBits+191 (0x0076FF30,0x045C8038,0x00000000,0x00000000)
+
+--- Thread ID: 2656 ---
+770E21A2 KERNELBASE.dll WaitForSingleObject+18 (0x0000231C,0xFFFFFFFF,0x12EEFF4C,0x0081C042)
+007746A0 Valanior.exe <unknown symbol>+0 (0xFFFFFFFF,0x00002DE0,0x00000A60,0x045C8038)
+0081C042 Valanior.exe <unknown symbol>+0 (0x00D3FCF0,0x0076FF30,0x0076FF30,0x045C8038)
+0076FFCB Valanior.exe <unknown symbol>+0 (0x00CAC800,0x75DD7B90,0x12EEFFDC,0x774AC10B)
+75DD7BA9 KERNEL32.DLL BaseThreadInitThunk+25 (0x045C8038,0x4F74B6A6,0x00000000,0x00000000)
+774AC10B ntdll.dll    RtlInitializeExceptionChain+107 (0xFFFFFFFF,0x774D9E6E,0x00000000,0x00000000)
+774AC08F ntdll.dll    RtlClearBits+191 (0x0076FF30,0x045C8038,0x00000000,0x375D7A32)
+
+--- Thread ID: 22412 ---
+75DD7BA9 KERNEL32.DLL BaseThreadInitThunk+25 (0x00000000,0x4B0CB6A6,0x00000000,0x00000000)
+774AC10B ntdll.dll    RtlInitializeExceptionChain+107 (0xFFFFFFFF,0x774D9E6E,0x00000000,0x00000000)
+774AC08F ntdll.dll    RtlClearBits+191 (0x731A5FA0,0x00000000,0x00000000,0x00000000)
+
+--- Thread ID: 19312 ---
+770BD73F KERNELBASE.dll SleepEx+79 (0x0000000A,0x00000000,0x16CFFF60,0x008D1E8D)
+770BD6DF KERNELBASE.dll Sleep+15 (0x0000000A,0x16CFFF74,0x008E520C,0x0000000A)
+008D1E8D Valanior.exe AssertAndCrash+52413 (0x0000000A,0x008E5190,0x00004B70,0x16CFFF84)
+008E520C Valanior.exe AssertAndCrash+131132 (0x1582D568,0x75DD7B90,0x16CFFFDC,0x774AC10B)
+75DD7BA9 KERNEL32.DLL BaseThreadInitThunk+25 (0x1582D568,0x4B55B6A6,0x00000000,0x00000000)
+774AC10B ntdll.dll    RtlInitializeExceptionChain+107 (0xFFFFFFFF,0x774D9E6E,0x00000000,0x00000000)
+774AC08F ntdll.dll    RtlClearBits+191 (0x008E5190,0x1582D568,0x00000000,0x00000000)
+
+--- Thread ID: 11280 ---
+770BD73F KERNELBASE.dll SleepEx+79 (0x0000000A,0x00000000,0x16E6FF60,0x008D1E8D)
+770BD6DF KERNELBASE.dll Sleep+15 (0x0000000A,0x16E6FF74,0x008E520C,0x0000000A)
+008D1E8D Valanior.exe AssertAndCrash+52413 (0x0000000A,0x008E5190,0x00002C10,0x16E6FF84)
+008E520C Valanior.exe AssertAndCrash+131132 (0x15824EE8,0x75DD7B90,0x16E6FFDC,0x774AC10B)
+75DD7BA9 KERNEL32.DLL BaseThreadInitThunk+25 (0x15824EE8,0x4B7CB6A6,0x00000000,0x00000000)
+774AC10B ntdll.dll    RtlInitializeExceptionChain+107 (0xFFFFFFFF,0x774D9E6E,0x00000000,0x00000000)
+774AC08F ntdll.dll    RtlClearBits+191 (0x008E5190,0x15824EE8,0x00000000,0x375D7A32)
+
+--- Thread ID: 7944 ---
+770E21A2 KERNELBASE.dll WaitForSingleObject+18 (0x000022F8,0xFFFFFFFF,0x17FAFF74,0x004F12CB)
+007746A0 Valanior.exe <unknown symbol>+0 (0xFFFFFFFF,0x00002FDC,0x0076FFCB,0x00000000)
+004F12CB Valanior.exe <unknown symbol>+0 (0x00CAC820,0x75DD7B90,0x17FAFFDC,0x774AC10B)
+75DD7BA9 KERNEL32.DLL BaseThreadInitThunk+25 (0x165ECED8,0x4A60B6A6,0x00000000,0x00000000)
+774AC10B ntdll.dll    RtlInitializeExceptionChain+107 (0xFFFFFFFF,0x774D9E6E,0x00000000,0x00000000)
+774AC08F ntdll.dll    RtlClearBits+191 (0x0076FF30,0x165ECED8,0x00000000,0x00000000)
+
+--- Thread ID: 25504 ---
+770E21A2 KERNELBASE.dll WaitForSingleObject+18 (0x00002FE4,0x000003E8,0x1811FF40,0x004691A5)
+007746A0 Valanior.exe <unknown symbol>+0 (0x000003E8,0x000063A0,0x165ECF38,0x00003074)
+004691A5 Valanior.exe <unknown symbol>+0 (0x00000000,0x1811FF74,0x0076FFCB,0x17029738)
+00469311 Valanior.exe <unknown symbol>+0 (0x17029738,0x0076FF30,0x0076FF30,0x165ECF38)
+0076FFCB Valanior.exe <unknown symbol>+0 (0x00CAC840,0x75DD7B90,0x1811FFDC,0x774AC10B)
+75DD7BA9 KERNEL32.DLL BaseThreadInitThunk+25 (0x165ECF38,0x458BB6A6,0x00000000,0x00000000)
+774AC10B ntdll.dll    RtlInitializeExceptionChain+107 (0xFFFFFFFF,0x774D9E6E,0x00000000,0x00000000)
+774AC08F ntdll.dll    RtlClearBits+191 (0x0076FF30,0x165ECF38,0x00000000,0x00000000)
+
+--- Thread ID: 24260 ---
+770E4028 KERNELBASE.dll WaitForMultipleObjects+24 (0x00000002,0x1828FE0C,0x00000000,0x000001F4)
+004699CB Valanior.exe <unknown symbol>+0 (0x165ECFE0,0x1828FF74,0x0076FFCB,0x17029728)
+0046906E Valanior.exe <unknown symbol>+0 (0x17029728,0x0076FF30,0x0076FF30,0x165ECFE0)
+0076FFCB Valanior.exe <unknown symbol>+0 (0x00CAC860,0x75DD7B90,0x1828FFDC,0x774AC10B)
+75DD7BA9 KERNEL32.DLL BaseThreadInitThunk+25 (0x165ECFE0,0x45B2B6A6,0x00000000,0x00000000)
+774AC10B ntdll.dll    RtlInitializeExceptionChain+107 (0xFFFFFFFF,0x774D9E6E,0x00000000,0x00000000)
+774AC08F ntdll.dll    RtlClearBits+191 (0x0076FF30,0x165E
